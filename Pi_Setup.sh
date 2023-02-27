@@ -61,6 +61,8 @@ install_dependency zenity
 install_dependency unzip
 install_dependency default-jre
 install_dependency default-jdk
+install_dependency libusb-1.0-0-dev
+install_dependency cheese
 
 git clone https://github.com/libuvc/libuvc
 cd libuvc
