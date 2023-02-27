@@ -62,6 +62,16 @@ install_dependency unzip
 install_dependency default-jre
 install_dependency default-jdk
 
+git clone https://github.com/libuvc/libuvc
+cd libuvc
+mkdir build
+cd build
+cmake ..
+make && sudo make install
+sudo ldconfig
+
+cd ..
+
 mkdir OpenCV
 cd OpenCV
 
