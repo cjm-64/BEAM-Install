@@ -72,7 +72,7 @@ cmake ..
 make && sudo make install
 sudo ldconfig
 
-cd ..
+cd .. && cd ..
 
 mkdir OpenCV
 cd OpenCV
