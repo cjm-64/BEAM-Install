@@ -26,7 +26,7 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D WITH_TBB
 make clean
 
 echo "Building"
-make -j1
+make -j$1
 
 echo "Installing OpenCV 4.6.0"
 sudo make install
