@@ -9,7 +9,7 @@ echo "----------------Installing Dependencies----------------"
 source dependencies.sh
 
 echo "----------------Install OpenCV 4.6.0 (Pupil Core Variant)----------------"
-source install_opencv.sh
+source install_opencv.sh 4
 
 VerNum=$(pkg-config --modversion opencv4)
 echo "OpenCV" $VerNum "is ready to be used"
