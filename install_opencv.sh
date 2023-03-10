@@ -1,5 +1,7 @@
 #!/bin/bash
 
+currentdir=$(pwd)
+
 mkdir OpenCV
 cd OpenCV
 
@@ -36,3 +38,6 @@ cd && cd .. && cd .. && cd /usr/local/include/opencv4 && sudo cp -avr /usr/local
 
 sudo sh -c 'echo "/usr/local/lib" > /etc/ld.so.conf.d/opencv.conf'
 sudo ldconfig
+
+cd 
+cd $currentdir
