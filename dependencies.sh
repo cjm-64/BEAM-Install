@@ -15,8 +15,8 @@ install_dependency g++
 install_dependency build-essential
 install_dependency checkinstall
 install_dependency libssl-dev
-source install_cmake.sh
 install_dependency pkg-config
+source install_cmake.sh
 install_dependency yasm
 install_dependency libtiff5-dev
 install_dependency libjpeg-dev
