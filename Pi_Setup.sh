@@ -16,3 +16,6 @@ echo "OpenCV" $VerNum "is ready to be used"
 
 echo "----------------Install libuvc (Pupil Core Variant)----------------"
 source install_libuvc.sh
+
+echo "----------------Install BEAM----------------"
+source install_BEAM.sh
