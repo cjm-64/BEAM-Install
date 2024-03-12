@@ -6,5 +6,7 @@ cd .. && git clone https://github.com/cjm-64/BEAM && cd BEAM && git switch fps &
 
 mv runBEAM.sh /home/beam/Desktop
 
+sudo mv keyboard.xml /usr/share/matchbox-keyboard/
+
 cd 
 cd $currentdir
