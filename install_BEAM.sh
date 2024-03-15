@@ -2,7 +2,7 @@
 
 currentdir=$(pwd)
 
-cd .. && git clone https://github.com/cjm-64/BEAM && cd BEAM && git switch fps && qmake BEAM.pro && make && chmod +x OpenKeyboard.sh && ls -la
+cd .. && git clone https://github.com/cjm-64/BEAM && cd BEAM && qmake BEAM.pro && make && chmod +x OpenKeyboard.sh && ls -la
 
 mv runBEAM.sh /home/beam/Desktop
 
